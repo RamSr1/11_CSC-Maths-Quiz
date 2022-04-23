@@ -124,3 +124,15 @@ def warmup():
       print("Incorrect! The right answer is 250")
       print("Score:", score)
       print("\n")
+  # QUESTION 3
+  answer3 = input(
+      "What is 4 * 245.6 ? \n a. 345.8 \n b. 982.4 \n c. 456.6 \nAnswer: ")
+  if answer3 == "b" or answer3 == "982.4":
+      score += 1
+      print("Correct!")
+      print("Score: ", score)
+      print("\n")
+  else:
+      print("Incorrect! The right answer is 982.4")
+      print("Score:", score)
+      print("\n")
