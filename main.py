@@ -312,3 +312,4 @@ def outro_and_answers():
   print("")
   print("Have a Nice Day My Friend!")
   print("╚════════════════════════════════════════════════════════════════════════════════╝")
+  
