@@ -101,3 +101,4 @@ def warmup():
   print("\033[4m Here is a 3 question warmup, this won't affect your grade it is just a starter.\033[0m")
   global score
   score = 0
+  
