@@ -51,3 +51,6 @@ def intro():
            print("    Hello! " +      n)
            print("    ----------------------")
            print("")
+           break
+       else:
+           print("  Please enter your first name with letters only, and don't leave empty spaces")
