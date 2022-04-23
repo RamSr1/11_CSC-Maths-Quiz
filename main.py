@@ -204,3 +204,7 @@ def questions():
         
         
         
+  questions={'\033[4mQuestion 5\033[0m.\nFollwing on from question 2\nFrom 8m away from the bottom of the left side of the building he looks at the top of the bridge. The angle of elevation is 28 degrees. He is 1.83m  tall. Find the height of the building.\n❒ a: 6.08m(2.d.p)\n❒ b: 6.56m(2.d.p)\n❒ c: 8.40m(2.d.p) \n' : 'a' ,
+        '\033[4mQuestion 6\033[0m\nFind the co-ordinates of which the follwing two lines intersect at.4x+10, 2x+18\n❒ a:(2,18)\n❒ b:(-4,26)\n❒ c:(4,26) \n' : 'c'
+        , '\033[4mQuestion \033[0m7\nGiven the equation -x/2(x-r)+2 find the equation of r given the point(8,2)\n❒ a: 6\n❒ b: 8\n❒ c: 10\n' :  'b' 
+        ,  '\033[4mQuestion 8\033[0m\n75% of homes on the national power supply in New Zealand are in the North Island. The rest are in the South Island. 70% of homes in the North Islandand 80% of homes in the South Island use electricity for their heating.   Calculate the probability that a home selected randomly across New Zealandis on the national power supply in the North Island AND uses electricity  for heating.\n❒ a: 0.5(1/2)\n❒ b: 0.525(21/40)\n❒ c: 0.593(16/27) \n' : 'b'}
