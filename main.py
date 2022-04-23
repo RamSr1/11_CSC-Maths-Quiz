@@ -157,3 +157,4 @@ def scoring_system():
   print("Merit Questions:+ 2 POINTS")
   print("Excellence Questions:+ 3 POINTS")
   print("")
+def timer():
