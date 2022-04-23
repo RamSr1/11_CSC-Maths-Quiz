@@ -41,3 +41,4 @@ class SecondCounter(threading.Thread):
         return self.value
 
 
+def intro():
