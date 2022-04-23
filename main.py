@@ -284,3 +284,16 @@ def grade_and_score():
   print("")
   print("\033[4mNot Achieved\033[0m = Score of 0-6\n\033[4mAchieved\033[0m = Score of 7-13\n\033[4mMerit\033[0m = Score of 14-18\n\033[4mExcellence\033[0m = Score of 19-24")
   print("")
+
+
+
+
+
+#starting point
+def outro_and_answers():
+  e = input("Press Enter again if you are done")
+  
+  # stop the count and get elapsed time
+  print("")
+  seconds = count.finish()
+  print("You have taken {} seconds to complete your quiz".format(seconds))
