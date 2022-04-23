@@ -149,3 +149,4 @@ def warmup():
   print("╔════════════════════════════════════════════════════════════════════════════════╗")
   print("")
 def scoring_system():
+  print("--) \033[4m-Now that is over we can move on to the actual quiz\033[0m")
