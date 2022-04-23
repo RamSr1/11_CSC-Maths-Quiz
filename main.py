@@ -174,3 +174,7 @@ def timer():
 
 #start of program
 def questions():
+  questions={'\033[4mQuestion 1\033[0m.\nMosie is starting her own badminton court hire company.She will charge $10 per hour,along with a fixed charge of $8,Find the Equation of Mosies court fees, when x is = hours\n❒ a: 15x+8\n❒ b: 8x+15x\n❒ c: 10x+8 \n' : 'c' , 
+        '\033[4mQuestion 2\033[0m\nA building inspector wants to check if the pillar of the building is perpendicular to the ground. He measures the distance between 3 points, Each distance measures 3.11m, 4.19m and 5.23m. Is the pillar of the building of the building perpendicular to the ground.\n❒ a: Yes\n❒ b: No\n❒ c: Impossible to tell \n' : 'a' ,
+        '\033[4mQuestion 3\033[0m\nWanipun takes 35 minutes to jog the 10 km from his home to school. What  is the average speed when she is jogging from his home to school?\n❒ a: 1.15km/min\n❒ b: 0.125km/ min\n❒ c: 17.15km/min\n' : 'b' ,
+        '\033[4mQuestion 4\033[0m\nWhat is the value of 2x^4 − 3x + 5 when x = − 2?\n❒ a: 46\n❒ b: 25\n❒ c: 43 \n' : 'c'}
