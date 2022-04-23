@@ -308,3 +308,7 @@ def outro_and_answers():
   print("")
   print("\033[4mQuestions 1-4\033[0m= NCEA level 1 Achieved Questions\n\033[4mQuestions:5-8\033[0m= NCEA Level 1 Merit questions\n\033[4mQuestions:9-12\033[0m= NCEA level 1 Excellence Questions")
   print("")
+  print("Thank You For Trying My Quiz Out!")
+  print("")
+  print("Have a Nice Day My Friend!")
+  print("╚════════════════════════════════════════════════════════════════════════════════╝")
