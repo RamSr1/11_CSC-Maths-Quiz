@@ -173,3 +173,4 @@ def timer():
   e = input("Press Enter for timer to start")
 
 #start of program
+def questions():
