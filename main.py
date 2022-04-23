@@ -150,3 +150,10 @@ def warmup():
   print("")
 def scoring_system():
   print("--) \033[4m-Now that is over we can move on to the actual quiz\033[0m")
+  #How many points each question is worth;
+  print("Scoring System:")
+  
+  print("Achieved Questions:+ 1 POINT")
+  print("Merit Questions:+ 2 POINTS")
+  print("Excellence Questions:+ 3 POINTS")
+  print("")
