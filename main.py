@@ -158,3 +158,18 @@ def scoring_system():
   print("Excellence Questions:+ 3 POINTS")
   print("")
 def timer():
+  # make this work with Python2 or Python3
+  #if sys.version_info[0] < 3:
+     # input = raw_input
+  global count
+  # create the class instance
+  count = SecondCounter()
+  # start the count
+  count.start()
+  
+  # test the counter with a key board response time
+  # or put your own code you want to background-time in here
+  # you can always peek at the current counter value
+  e = input("Press Enter for timer to start")
+
+#start of program
