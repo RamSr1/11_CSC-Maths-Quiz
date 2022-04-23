@@ -178,3 +178,29 @@ def questions():
         '\033[4mQuestion 2\033[0m\nA building inspector wants to check if the pillar of the building is perpendicular to the ground. He measures the distance between 3 points, Each distance measures 3.11m, 4.19m and 5.23m. Is the pillar of the building of the building perpendicular to the ground.\n❒ a: Yes\n❒ b: No\n❒ c: Impossible to tell \n' : 'a' ,
         '\033[4mQuestion 3\033[0m\nWanipun takes 35 minutes to jog the 10 km from his home to school. What  is the average speed when she is jogging from his home to school?\n❒ a: 1.15km/min\n❒ b: 0.125km/ min\n❒ c: 17.15km/min\n' : 'b' ,
         '\033[4mQuestion 4\033[0m\nWhat is the value of 2x^4 − 3x + 5 when x = − 2?\n❒ a: 46\n❒ b: 25\n❒ c: 43 \n' : 'c'}
+   
+  for key in questions.keys():
+            global score
+            user_answer=input(key)
+            if questions.get(key)==user_answer:
+                score +=1
+                print("")
+                print("╭⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯╮")
+                print("Good Job, That's Correct!  ✅")
+                print("╰⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯╯")
+                print("")
+                print("╚════════════════════════════════════════════════════════════════════════════════╝")
+                print("")
+                print("╔════════════════════════════════════════════════════════════════════════════════╗")
+                print("")
+            else:
+                print("")
+                print("╭⎯⎯⎯⎯⎯⎯⎯╮")
+                print("Incorrect  ❎")
+                print("╰⎯⎯⎯⎯⎯⎯⎯╯")
+                print("╚════════════════════════════════════════════════════════════════════════════════╝")
+                print("")
+                print("╔════════════════════════════════════════════════════════════════════════════════╗")
+        
+        
+        
