@@ -42,3 +42,12 @@ class SecondCounter(threading.Thread):
 
 
 def intro():
+  while True:
+       print("╔════════════════════════════════════════╗")
+       print("")
+       n = input("  Please enter your first name ➣ ")
+       if n.isalpha():
+           print("    ----------------------")
+           print("    Hello! " +      n)
+           print("    ----------------------")
+           print("")
