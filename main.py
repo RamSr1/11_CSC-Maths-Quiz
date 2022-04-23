@@ -109,3 +109,18 @@ def warmup():
       print("Correct!")
       print("Score: ", score)
       print("\n")
+  else:
+      print("Incorrect! The right answer is 40")
+      print("Score: ", score)
+      print("\n")
+  # QUESTION 2
+  answer2 = input("What is 5 * 50 ? \n a. 350 \n b. 400 \n c. 250 \nAnswer: ")
+  if answer2 == "c" or answer2 == "250":
+      score += 1
+      print("Correct!")
+      print("Score: ", score)
+      print("\n")
+  else:
+      print("Incorrect! The right answer is 250")
+      print("Score:", score)
+      print("\n")
