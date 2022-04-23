@@ -231,3 +231,9 @@ def questions():
                 print("")
                 print("╔════════════════════════════════════════════════════════════════════════════════╗")
         
+  questions={'\033[4mQuestion 9\033[0m\nLulu and Pika are standing on opposites sides of the net Pika sends the ball over the net towards Lulu. The equation of the path travelled by the ball is H=-0.25(x-2.1)^2+3.9.Find when the ball will hit the ground.\n❒ a: 6m away from the net\n❒ b: 6.05m away from the net\n❒ c: 12.24m  away from the net \n': 'b'
+        ,'\033[4mQuestion 10\033[0m\nFollowing on from Question 8\nThere are 1 500 000 homes across New Zealand (both in the North Island and the South Island). Calculate how many of the homes on the national power supply in the South Island do not use electricity for heating. \n❒ a: 75,000\n❒ b: 125,000\n❒ c: 265,000 \n' : 'a'
+         
+        ,'\033[4mQuestion 11\033[0m\n3/x+2+5/x-4=2\n❒ a: 7,-1\n❒ b: 3,6\n❒ c: 7\n': 'a'
+        , '\033[4mQuestion 12\033[0m\n36x6^2x+6=6^x^2\n❒ a: x=4\n❒ b: x=3,1\n❒ c: x=4,-2\n':  'c'}
+     
