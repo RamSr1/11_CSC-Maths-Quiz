@@ -297,4 +297,14 @@ def outro_and_answers():
   print("")
   seconds = count.finish()
   print("You have taken {} seconds to complete your quiz".format(seconds))
-  
+  print('\033[4mThe answers to the questions are located below\033[0m ')
+  print("")
+  print("\033[4mAnswers\033[0m ")
+  print("◤══════════════════════════════◥")
+  print('║ Question 1: ❒ C              ║    \n╠══════════════════════════════╣\n║ Question 2: ❒ A              ║ \n╠══════════════════════════════╣\n║ Question 3: ❒ B              ║  \n╠══════════════════════════════╣\n║ Question 4: ❒ C              ║    \n╠══════════════════════════════╣\n║ Question 5: ❒ A              ║ \n╠══════════════════════════════╣\n║ Question 6: ❒ C              ║  \n╠══════════════════════════════╣\n║ Question 7: ❒ B              ║ \n╠══════════════════════════════╣\n║ Question 8: ❒ B              ║   \n╠══════════════════════════════╣\n║ Question 9: ❒ B              ║   \n╠══════════════════════════════╣\n║ Question 10: ❒ A             ║ \n╠══════════════════════════════╣\n║ Question 11: ❒ A             ║ \n╠══════════════════════════════╣\n║ Question 12: ❒ C             ║')
+  print("◣══════════════════════════════◢")
+
+  print("╔════════════════════════════════════════════════════════════════════════════════╗")
+  print("")
+  print("\033[4mQuestions 1-4\033[0m= NCEA level 1 Achieved Questions\n\033[4mQuestions:5-8\033[0m= NCEA Level 1 Merit questions\n\033[4mQuestions:9-12\033[0m= NCEA level 1 Excellence Questions")
+  print("")
