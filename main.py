@@ -136,3 +136,16 @@ def warmup():
       print("Incorrect! The right answer is 982.4")
       print("Score:", score)
       print("\n")
+    #FINAL MESSAGE
+  if score <= 1:
+      print("You total score:", score, "- You did Okay!")
+  elif score == 2:
+      print("You total score:", score, "- You did Good!")
+  elif score == 3:
+      print("You total score:", score, "- You did Amazing!")
+print("╚════════════════════════════════════════════════════════════════════════════════╝")
+  print("")
+  print("")
+  print("╔════════════════════════════════════════════════════════════════════════════════╗")
+  print("")
+def scoring_system():
