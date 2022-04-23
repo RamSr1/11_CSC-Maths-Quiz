@@ -265,3 +265,22 @@ def questions():
 
 
 def grade_and_score():
+  print("")
+  print('I am Really proud of you for finishing the quiz!')
+  print("")
+  print('Congratulations your final score for this NCEA type quiz is {}/24'.format(score))
+  print("")
+  if 7>score:
+     print("Your Final Assesed Grade is \033[4mNot Achieved\033[0m Better Luck Next Time")
+  elif 14>score:
+    print("Your Final Assesed Grade is \033[4mAchieved\033[0m, Good Work")
+  elif 19>score:
+    print("Your Final Assesed Grade is \033[4mMerit\033[0m,You have exeded expectations by far !!")
+  else:
+    print("Your Final Assesed Grade is \033[4mExcellence\033[0m,Supercalifragilisticexpialidocious,!!")
+    print("╚════════════════════════════════════════════════════════════════════════════════╝")
+  print("")
+  print("\033[4mScores\033[0m")
+  print("")
+  print("\033[4mNot Achieved\033[0m = Score of 0-6\n\033[4mAchieved\033[0m = Score of 7-13\n\033[4mMerit\033[0m = Score of 14-18\n\033[4mExcellence\033[0m = Score of 19-24")
+  print("")
